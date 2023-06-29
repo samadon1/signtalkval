@@ -12,6 +12,6 @@ class Data(models.Model):
     correctText = models.CharField(max_length = 200)
 
     def __str__(self):
-        return self.text
+        return self.filename
     
     
